@@ -1,0 +1,8 @@
+# Ignores node_modules nfiles
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
