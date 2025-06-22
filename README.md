@@ -1,6 +1,5 @@
 
 
-```markdown
 # 📝 001Network Blog
 
 A professional, full-featured blog application built with **Node.js**, **Express.js**, and **EJS templating engine**. Designed to deliver a seamless and fast blogging experience with dynamic content rendering, clean UI, and maintainable code architecture.
