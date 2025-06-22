@@ -21,7 +21,7 @@ A professional, full-featured blog application built with **Node.js**, **Express
 
 ## 📸 Demo
 
-Live demo: [https://your-deployment-url.com](https://your-deployment-url.com)
+Live demo: [001Network_blog](https://your-deployment-url.com)
 
 ![Blog Homepage Screenshot](screenshots/homepage.png)
 ![Blog Post Screenshot](screenshots/post.png)
@@ -134,4 +134,3 @@ Contributions, issues, and feature requests are welcome!
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
