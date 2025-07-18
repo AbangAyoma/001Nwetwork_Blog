@@ -2,9 +2,9 @@ const express = require("express");
 const mongoose = require("mongoose")
 const Blog = require ('./models/blog');
 const {connect_uri} = require('./auth')
+
 const app = express();
 app.set("view engine", "ejs");
-
 mongoose.connect(connect_uri)
 // .then((result) => console.log("connected to db"))
 .then((result) => app.listen(3000))
