@@ -1,10 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose")
 const Blog = require ('./models/blog');
-const connect_uri = "mongodb+srv://abangayoma:WnWAb45vCLHLtmv@001networks.pyt1rvo.mongodb.net/?retryWrites=true&w=majority&appName=001Networks"
 const app = express();
 app.set("view engine", "ejs");
-
+const connect_uri = 'put in mongoose username and password'
 mongoose.connect(connect_uri)
 // .then((result) => console.log("connected to db"))
 .then((result) => app.listen(3000))
