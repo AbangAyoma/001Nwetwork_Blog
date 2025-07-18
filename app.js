@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose")
 const Blog = require ('./models/blog');
-const connect_uri = "mongodb+srv://abangayoma:WnWAb45vCLHLtmv@001networks.pyt1rvo.mongodb.net/?retryWrites=true&w=majority&appName=001Networks"
+const {connect_uri} = require('./auth')
 const app = express();
 app.set("view engine", "ejs");
 
